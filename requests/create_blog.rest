@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs HTTP/1.1
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNwYWNlcGlyYXRlIiwiaWQiOiI2NTFiMWZkMjIwM2YxNmQxODExMDc0YTEiLCJpYXQiOjE2OTY0MDkyMzcsImV4cCI6MTY5NjQxMjgzN30.JHXYG4RitN9Mtxzi9J11RytHia_XkeRkD26BobHu1V4
+
+{
+    "title": "Making blog works no token",
+    "author": "Random",
+    "url": "www.httprequests.com",
+    "likes": 4,
+    "userId": "651b1fd2203f16d1811074a1"
+}

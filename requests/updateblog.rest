@@ -1,0 +1,9 @@
+PUT http://localhost:3003/api/blogs/651fb7f0bfcc542378afd703 HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Test Blog",
+    "author": "dahjdahjd",
+    "url": "www.csd.com",
+    "likes": 3
+}
